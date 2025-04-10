@@ -1,0 +1,113 @@
+body{
+    font-family:Arial, sans-serif ;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(83, 40, 10);
+}
+.main-part{
+    background-color: rgb(193, 133, 73);
+    margin: 30px;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    text-align: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    color: antiquewhite;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+    
+}
+nav a::first-line{
+        text-decoration: none;
+        color: rgb(78, 51, 10); 
+        font-size: 15px;
+        transition: all ease .4s;
+}
+.search{
+    border-radius: 50%;
+}
+.form{
+    align-items: center;
+    padding: 50px;
+}
+
+.form-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.form-input{
+    margin: 10px;
+    padding: 10px;
+    width: 35%;
+    border-radius: 10px;
+    border: 2px solid rgb(83, 40, 10);
+}
+
+.input-label{
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 30px;
+    color:rgb(83, 40, 10);
+}
+
+.form-button{
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+    width: 15%;
+    border-radius: 10px;
+    border: 10px solid rgb(83, 40, 10);
+}
+.fo{
+    color: aliceblue;
+    background-color: rgb(83, 40, 10);
+}
+.no{
+    display:inline;
+    flex-direction: row;
+    gap: 20px; 
+    padding-inline-start: 20px;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+
+}
+.skin-img{
+    text-align: center;
+    border-radius: 30%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.bottom-section{
+    background-color: rgb(116, 62, 23);
+    text-align: center;
+    padding: 20px;
+    color: rgb(204, 126, 25);
+    
+}
+.end{
+    text-align:center;
+    color: white;
+}
+.she{
+    text-align: right;
+}

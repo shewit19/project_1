@@ -1,0 +1,155 @@
+body{
+    font-family:Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 40, 10);
+}
+.main-part{
+    background-color: rgb(193, 133, 73);
+    margin: 30px;
+}
+header{
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+    color: aliceblue;
+    
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(78, 51, 10); 
+    font-size: 15px;
+    transition: all ease .4s;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    color: aliceblue;
+}
+.search{
+    border-radius: 50%;
+}
+
+.jpii{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    
+}
+.hhh{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 0;
+    display: inline-block;
+    color: rgb(80, 51, 14);
+
+}    
+.white-txt{
+    display: inline;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 0;
+    color: rgb(135, 90, 32);
+    color: white;
+}
+.aaa{
+    border-radius: 50%;
+    box-shadow: 0 0 20px #9dabab;
+}
+.girl{
+    display:flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px; 
+
+}
+
+.qq{
+    width: 110px;
+    width: 150px;
+    text-align: center;
+    color: rgb(234, 185, 113);
+    color: white;
+
+}
+.skin-headtxt{
+    width: 150px;
+    text-align: center;
+    color: rgb(102, 60, 22);
+}
+.hero{
+    flex-wrap: wrap;
+    display: inline;
+    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    padding-inline: 50px;
+    text-align: center;
+    max-width: 100%;
+    
+
+}
+
+.skin{
+    justify-content: center;
+
+    margin: 20px;
+}
+
+.fo{
+    color: aliceblue;
+}
+.no{
+    display:inline;
+    flex-direction: row;
+    gap: 20px; 
+    padding-inline-start: 20px;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+
+    
+}
+.skin-img{
+    text-align: center;
+    border-radius: 30%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.skin-text{
+    background-color: rgba(129, 71, 33, 0.616);
+    padding: 30px;
+}
+.she{
+    text-align: right;
+}
+.end{
+    text-align: center;
+    color: white;
+}
+
+.text-class{
+    display:ruby;
+    padding: 100px;
+}
+
+.bottom-section{
+    background-color: rgb(116, 62, 23);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

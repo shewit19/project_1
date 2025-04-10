@@ -1,0 +1,143 @@
+body {
+    font-family:Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 40, 10);
+}
+
+.main-part{
+    background-color: rgb(193, 133, 73);
+    margin: 30px;
+}
+header {
+        padding: 20px;
+        text-align: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+
+} 
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(78, 51, 10); 
+    font-size: 15px;
+    transition: all ease .4s;
+}
+.search{
+    border-radius: 50%;
+
+}
+
+main {
+    padding: 15px;
+}
+.section-image{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.treatment-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #391d04;
+    border-radius: 15px;
+    
+    
+}
+
+
+.treatment-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:rgb(83, 40, 10);  
+    font-style:italic;
+
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.tip {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.986);
+
+}
+.tip h3 {
+    color: rgb(83, 40, 10);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.tip ul {
+    list-style:circle;
+    margin-left: 20px;
+    padding-left: 0;
+    
+}
+
+.tip li {
+    margin-bottom: 5px;
+}
+
+.fo{
+    color: aliceblue;
+    background-color: rgb(83, 40, 10);
+}
+.no{
+    display:inline;
+    flex-direction: row;
+    gap: 20px; 
+    padding-inline-start: 20px;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+
+
+}
+.skin-img{
+    text-align: center;
+    border-radius: 30%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.bottom-section{
+    background-color: rgb(116, 62, 23);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
+}
+.end{
+    text-align:center;
+    color: white;
+}
+.she{
+    text-align: right;
+}
